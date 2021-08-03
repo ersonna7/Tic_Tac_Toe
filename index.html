@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="starting">
+        <h1>Tic Tac Toe</h1>
+        <h2>By josee7</h2>
+        <button class="show-names blue-btn">Play Game</button>
+    </div>
+    <div id="names">
+        <form id="name-form">
+            <p>Enter your names here:</p>
+            <input class="name" id="player1" type="text" placeholder="Player 1">
+            <input class="name" id="player2" type="text" placeholder="Player 2">
+            <br>
+            <button class="play blue-btn" type="button">Start</button>
+        </form>
+    </div>
+<div id="board">
+    <header>
+        Tic Tac Toe
+    </header>
+    <div class="container">
+        <div id="1" class="box"></div>
+        <div id="2" class="box"></div>
+        <div id="3" class="box"></div>
+        <div id="4" class="box"></div>
+        <div id="5" class="box"></div>
+        <div id="6" class="box"></div>
+        <div id="7" class="box"></div>
+        <div id="8" class="box"></div>
+        <div id="9" class="box"></div>
+    </div>
+    <button class="btn">
+        Reset
+    </button>
+</div>
+<div class="game-over">
+    <div class="end-text">Game Over</div><br>
+    <div class="end-text winner"></div>
+    <button id="play-again" class="blue-btn">Play Again</button>
+</div>
+</body>
+<script src="java.js"></script>
+</html>

@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#board {
+    display: none;
+}
+.fade {
+    opacity: 0%;
+    transition: 1s;
+}
+header {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 168px);
+    grid-template-rows: repeat(3, 168px);
+    grid-gap: 1px;
+    margin: 80px auto;
+    max-width: 500px;
+    min-height: 500px;
+
+}
+.btn {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background: #fa5a5a;
+    color: white;
+    padding: 4px 12px;
+    box-shadow:0px 4px 0px #E04342;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    background: #e41e1e;
+    transition: .50s;
+}
+.btn:active {
+    font-size: 25px;
+    transition: .20s;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.fade-in-image {
+    animation: fadeIn .75s;
+    -webkit-animation: fadeIn .75s;
+    -moz-animation: fadeIn .75s;
+    -o-animation: fadeIn .75s;
+    -ms-animation: fadeIn .75s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+.game-over {
+    display: none;
+    margin: 200px auto;
+}
+.end-text {
+    font-size: 30px;
+}
+.winner {
+    font-size: 50px !important;
+}
+.blue-btn {
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background: #7fb1bf;
+    color: white;
+    padding: 4px 12px;
+    box-shadow: 0px 4px #74a3b0;
+    border: 1px solid;
+    cursor: pointer;
+}
+.blue-btn:hover {
+    background: #48a5be;
+    transition: .20s;
+}
+.blue-btn:active {
+    font-size: 27px;
+    transition: .20s;
+}
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 150px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+p {
+    font-size: 30px;
+    margin-top: 200px;
+}
+.name {
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+.name:active, .name:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .3s;
+}
+#names {
+    display: none;
+}
